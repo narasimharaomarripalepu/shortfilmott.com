@@ -6,30 +6,42 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <script src="https://kit.fontawesome.com/26578125dc.js" crossorigin="anonymous"></script>
+<style>
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.res{
+width:70%;
+height:auto;
+margin-left:80px;
+margin-top:50px;
+}
+</style>
 <body>
 
 <!-- Navigation (Stays on Top) -->
 <div class="w3-top w3-bar w3-wide w3-large w3-black">
-<a href="#home" class="w3-left w3-bar-item"><img src="logo.png" style="border-radius:50%; width:5%"></a>
+<a href="#home" class="w3-left w3-bar-item w3-hide-small"><img src="logo.png" style="border-radius:50%; width:5%"></a>
 <a href="#home" class="w3-center w3-bar-item w3-button">Home</a>
 <a href="#Films" class="w3-center w3-bar-item w3-button">Films</a>
 <a href="#contact" class="w3-center w3-bar-item w3-button">Contact</a>
 <a href="light.htm" class="w3-center w3-bar-item w3-button"><i class="fa-solid fa-circle-half-stroke"></i></a>
-<a href="#home" class="w3-right w3-bar-item w3-button"><i class="fa-solid fa-magnifying-glass" style="color: #fafafa;"></i></a>
+<a href="#home" class="w3-right w3-bar-item w3-button "><i class="fa-solid fa-magnifying-glass" style="color: #fafafa;"></i></a>
 </div>
 
 <!-- Start Content -->
 <div id="home" class="w3-content w3-black">
 <a href="https://www.youtube.com/watch?v=GdVgG05VqxM" target="_blank">
-<img src="drifter.jpg" alt="the drifter" class="slides"style="width:1000px;height:500px;margin-top:50px">
+<img src="drifter.jpg" alt="the drifter" class="responsive"style="margin-top:50px">
 </a>
 <a href="https://www.youtube.com/watch?v=WoeuyW74V0k" target="_blank">
-<img src="https://i.ytimg.com/vi/WoeuyW74V0k/maxresdefault.jpg" style="width:1000px; height:500px;margin-top:50px" alt="name" class="slides">
+<img src="https://i.ytimg.com/vi/WoeuyW74V0k/maxresdefault.jpg" style="margin-top:50px" alt="name" class="responsive">
 </a>
 <a href="https://www.youtube.com/watch?v=7mSH86O2qzA" target="_blank">
-<img src="https://i.ytimg.com/vi/7mSH86O2qzA/maxresdefault.jpg" style="width:1000px; height:500px;margin-top:50px"alt="name" class="slides">
+<img src="https://i.ytimg.com/vi/7mSH86O2qzA/maxresdefault.jpg" style="margin-top:50px"alt="name" class="responsive">
 </a>
-<script>w3.slideshow(".slides", 2000)</script>
+<script>w3.slideshow(".responsive", 2000)</script>
 </div>
 <div class="w3 container w3-center">
 <h2>SFOTT</h2>
@@ -42,14 +54,60 @@ suggetions are accepted. If you wanna give any go to contact.</p>
 <div class="w3-grey" style="margin-top:50px">
 <p style="color:grey">&nbsp</p>
 </div>
-<h3 class="w3-left w3-grey" style="margin-left:130px; border-radius:10px;margin-top:50px"> &nbspTOP PICKS FOR YOU: &nbsp</h3>
-<div class="w3-row" style="margin-left:100px" id="Films">
+<h3 class="w3-left w3-grey" id="Films" style="margin-left:130px; border-radius:10px;margin-top:50px"> &nbspTOP PICKS FOR YOU: &nbsp</h3>
+<div class="w3-hide-large">
+<a href="https://www.youtube.com/watch?v=GdVgG05VqxM" target="_blank">
+<img src="drifter.jpg" class="res w3-hide-large">
+</a>
+<h3 class="w3-center">THE DRIFTER</h3>
+<h4 class="w3-center" style="color:grey">Thriller/Drama</h4>
+<div class="w3-center">
+<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
+</div>
+
+<a href="https://www.youtube.com/watch?v=62qLt6X1AK0" target="_blank">
+<img src="https://i.ytimg.com/vi/62qLt6X1AK0/maxresdefault.jpg" class="res w3-hide-large">
+</a>
+<h3 class="w3-center">KAVI</h3>
+<h4 class="w3-center" style="color:grey">Drama</h4>
+<div class="w3-center">
+<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
+</div>
+
+<a href="https://www.youtube.com/watch?v=WoeuyW74V0k" target="_blank">
+  <img src="https://i.ytimg.com/vi/WoeuyW74V0k/maxresdefault.jpg" class="res w3-hide-large">
+</a>
+<h3 class="w3-center">IMDAAD</h3>
+<h4 class="w3-center" style="color:grey">Drama</h4>
+<div class="w3-center">
+<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w3-row w3-hide-small" style="margin-left:100px">
   <div class="w3-quarter w3-card" style=" margin-top:50px;margin-left:30px;width:20%">
 <a href="https://www.youtube.com/watch?v=GdVgG05VqxM" target="_blank">
-  <img src="drifter.jpg" style="width:100%;"alt="name">
+  <img src="drifter.jpg"style="width:100%" alt="name">
 </a>
   <h1 class="w3-center" >THE DRIFTER</h1>
   <h4 class="w3-center" style="color:grey">Thriller/Drama</h4>
+
   <p class="w3-center w3-hide-small">Drifter is a short film in which a guy meets a strange person and that person unreveals mind bending things. To watch click on the pic.</p><br>
 <div class="w3-center">
 <i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
@@ -94,7 +152,58 @@ suggetions are accepted. If you wanna give any go to contact.</p>
 </div>
 
 <h3 class="w3-left w3-grey" style="margin-left:130px; border-radius:10px; margin-top:50px"> &nbspSCI-FI: &nbsp</h3>
-<div class="w3-row" style="margin-left:100px" id="Films">
+<div class="w3-hide-large">
+<a href="https://www.youtube.com/watch?v=7mSH86O2qzA" target="_blank">
+  <img src="https://i.ytimg.com/vi/7mSH86O2qzA/maxresdefault.jpg" class="res w3-hide-large">
+</a>
+<h3 class="w3-center">STALLED</h3>
+<h4 class="w3-center" style="color:grey">Thriller/Sci-fi</h4>
+<div class="w3-center">
+<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
+</div>
+
+<a href="https://www.youtube.com/watch?v=K6Djo1IgU1k" target="_blank">
+  <img src="recursion.png" class="res w3-hide-large">
+</a>
+<h3 class="w3-center">RECURSION</h3>
+<h4 class="w3-center" style="color:grey">Sci-fi</h4>
+<div class="w3-center">
+<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
+</div>
+
+<a href="https://www.youtube.com/watch?v=P5_Msrdg3Hk" target="_blank">
+  <img src="https://i.ytimg.com/vi/P5_Msrdg3Hk/maxresdefault.jpg" class="res w3-hide-large">
+</a>
+<h3 class="w3-center">BLACK HOLE</h3>
+<h4 class="w3-center" style="color:grey">Thriller</h4>
+<div class="w3-center">
+<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w3-row w3-hide-small" style="margin-left:100px" id="Films">
   <div class="w3-quarter w3-card" style=" margin-top:50px;margin-left:30px;width:20%">
 <a href="https://www.youtube.com/watch?v=7mSH86O2qzA" target="_blank">
   <img src="https://i.ytimg.com/vi/7mSH86O2qzA/maxresdefault.jpg" style="width:100%;"alt="name">
@@ -146,7 +255,59 @@ suggetions are accepted. If you wanna give any go to contact.</p>
 
 
 <h3 class="w3-left w3-grey" style="margin-left:130px; border-radius:10px;margin-top:50px"> &nbspYOU MIGHT ALSO LIKE: &nbsp</h3>
-<div class="w3-row" style="margin-left:100px;borde-bottom:5px solid grey" id="Films">
+
+<div class="w3-hide-large">
+<a href="https://www.youtube.com/watch?v=XYLgwxbwEb8" target="_blank">
+  <img src="https://i.ytimg.com/vi/XYLgwxbwEb8/maxresdefault.jpg" class="res w3-hide-large">
+</a>
+<h3 class="w3-center">TUNNEL</h3>
+<h4 class="w3-center" style="color:grey">Thriller/Horror</h4>
+<div class="w3-center">
+<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
+</div>
+
+<a href="https://www.youtube.com/watch?v=BYysLg8Hzlo" target="_blank">
+  <img src="https://i.ytimg.com/vi/BYysLg8Hzlo/maxresdefault.jpg" class="res w3-hide-large">
+</a>s
+<h3 class="w3-center">THE ELEVATOR</h3>
+<h4 class="w3-center" style="color:grey">Horror</h4>
+<div class="w3-center">
+<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
+</div>
+
+<a href="https://www.youtube.com/watch?v=C7OQHIpDlvA" target="_blank">
+  <img src="https://i.ytimg.com/vi/C7OQHIpDlvA/maxresdefault.jpg" class="res w3-hide-large">
+</a>
+<h3 class="w3-center">THE WAIT</h3>
+<h4 class="w3-center" style="color:grey">Drama</h4>
+<div class="w3-center">
+<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star" style="color: #ffd500;"></i>&nbsp<i class="fa-solid fa-star-half-stroke" style="color: #ffd500;"></i>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w3-row w3-hide-small" style="margin-left:100px;borde-bottom:5px solid grey" id="Films">
   <div class="w3-quarter w3-card" style=" margin-top:50px;margin-left:30px;width:20%">
 <a href="https://www.youtube.com/watch?v=XYLgwxbwEb8" target="_blank">
   <img src="https://i.ytimg.com/vi/XYLgwxbwEb8/maxresdefault.jpg" style="width:100%;"alt="name">
@@ -225,6 +386,7 @@ Comment:<br>
 </div>
 </div>
 </div>
+
 
 <footer class="w3-panel w3-grey" style="height:110px">
 <div class="w3-center">
